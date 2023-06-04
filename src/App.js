@@ -1,15 +1,16 @@
-// import logo from './logo.svg';
 import './App.css';
 import Button from './Button';
 
 function App() {
   return (
-    <div className="App color-red">
-     Hello world keshav
-     <form>
-      Name: <input type='text' />
-      <Button name="keshav button"></Button>
-     </form>
+    <div className="Portfolio">
+      <h2>Portfolio</h2>
+
+      <span>Name: <input type='text' /></span>
+      <span>Date:<input type='date'/></span>
+      <span>Color:<input type='color'/></span>
+      <span>Email:<input type="email"/></span>
+     <Button name="Submit"></Button>
     </div>
   );
 }
